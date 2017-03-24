@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+	<title> 복습해보자ㅏㅏ</title>
+	
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<style>
+		header nav{
+			width : 80mm;
+			margin : auto;
+			display : block;
+			height : 20mm;
+		}
+		header nav ul li{
+			float : left;
+			width : 50px;
+		}
+		header div {
+			position : relative;
+			width : 200mm;
+			display : block;
+			margin : 0 auto;
+			height : 25mm;
+		}
+		header div p {
+			float : left;
+			font-family : sans-serif;
+			font-weight : bold;
+			font-size : 30px;
+			color : green;
+		}
+		header div input{
+			height : 25px;
+			width : 370px;
+			position : relative;
+			left : 10mm;
+			top : 3mm;
+		}
+		header div button{
+			position : relative;
+			top : 3mm;
+			left : 15mm;
+			width : 15mm;
+			height : 8mm;
+			background : green;
+			color : white;
+			font-weight : bold;
+			font-family : sans-serif;
+		}
+		#navUnderTittle {
+			height : 8mm;
+			width : 350mm;
+			margin : 0 auto;
+			display : block;
+		}
+		#navUnderTittle ul li {
+			width : 60mm;
+			background-color:green;
+			float : left;
+			line-height : 30px;
+			text-align: center;
+			
+			font-family : sans-serif;
+			font-size : 12px;
+			font-weight : bold;
+		}
+		#navUnderTittle a {
+			text-decoration : none;
+			color : white;
+			display : block;
+		}
+		#navUnderTittle a:hover {
+			color : yellow;
+			background-color : #3d6F3d;
+		}
+		.under-nav {
+			margin : 0 auto;
+			width : 328mm;
+			height : 40mm;
+			display : block;
+		}
+		.advertisement {
+			float : left;
+		}
+		.sign_in {
+			width : 60mm;
+			float : left;
+			position : relative;
+			left : 10mm;
+			top : 10mm;
+		}
+		.sign_in_button {
+			position : relative;
+			top : 10mm;
+			left : 10mm;
+			float : left;
+			height : 18mm;
+			width : 18mm;
+			font-weight : bold;
+			text-align : center;
+		}
+		.under-ad {
+			width : 70mm;
+		}
+		
+		.shops {
+			background-color : yellow;
+		}
+	
+	
+		
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul style="list-style:none;">
+				<li><a class="top-image" href=""><img src="이미지.png" alt="home logo" WIDTH="30" HEIGHT="30"></a></li>
+				<li><a class="top-image" href=""><img src="이2.png" alt="serch logo" WIDTH="30" HEIGHT="30"></a></li>
+				<li><a class="top-image" href=""><img src="이3.png" alt="serch logo" WIDTH="30" HEIGHT="30"></a></li>
+			</ul>
+		</nav>
+		<div>
+			<p>NEIGHBOR</p>
+			<input type="text" name="SearchTxtbox" value="">
+			<button>검색</button>
+		</div>
+	</header>
+	
+	<nav id="navUnderTittle">
+		<ul style="list-style:none;">
+			<li><a href="">메일</a></li>
+			<li><a href="">카페</a></li>
+			<li><a href="">블로그</a></li>
+			<li><a href="">지식out</a></li>
+			<li><a href="">웹툰</a></li>
+		</ul>
+	</nav>
+	
+	<div class="under-nav">
+		<a href=""><img class="advertisement" src="eee.PNG" alt="protect your teeth" WIDTH="800" HEIGHT="150"></a>
+		<section class="sign_in">
+			<div class="input-group">
+		  		<span class="input-group-addon" id="sizing-addon1">I D</span>
+		  		<input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+			</div>
+			
+			<div class="input-group">
+		  		<span class="input-group-addon" id="sizing-addon2">PW</span>
+		  		<input type="text" class="form-control" placeholder="*******" aria-describedby="sizing-addon2">
+			</div>
+		</section> 
+		<button class="sign_in_button">로그인</button>
+	</div>
+	
+	
+	
+	<div class="under-ad">
+		
+		<!--
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#">상품</a></li>
+			<li role="presentation"><a href="#">쇼핑몰</a></li>
+			<li role="presentation"><a href="#">MEN</a></li>
+		</ul>
+		
+		-->
+		<section class="shops">
+			<img src="옷1.JPG" alt="i1" WIDTH="100" HEIGHT="100">
+			<img src="옷2.jpg" alt="i1" WIDTH="100" HEIGHT="100">
+			<img src="옷3.png" alt="i1" WIDTH="100" HEIGHT="100">
+			<img src="DHT4.JPG" alt="i1" WIDTH="100" HEIGHT="100">
+			<img src="DHT5.JPG" alt="i1" WIDTH="100" HEIGHT="100">
+			<img src="DHT6.jpg" alt="i1" WIDTH="100" HEIGHT="100">
+		</section>
+	</div>
+	
+	
+	
+</body>
+</html>
